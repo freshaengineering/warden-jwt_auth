@@ -53,7 +53,7 @@ module Warden
       self.class.jwks
     end
 
-    module_function :init_jkws_loader, :constantize_values, :symbolize_keys, :upcase_first_items
+    module_function :init_jkws_loader, :constantize_values, :symbolize_keys, :upcase_first_items # rubocop:disable Style/AccessModifierDeclarations
 
     # The secret used to encode the token
     setting :secret
