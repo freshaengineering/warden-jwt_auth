@@ -2,7 +2,11 @@
 
 $LOAD_PATH.unshift File.expand_path('../lib', __dir__)
 require 'warden/jwt_auth'
-require 'pry-byebug'
+begin
+  require 'pry-byebug'
+rescue LoadError
+  # Skip pry-byebug if Readline is not available
+end
 require 'simplecov'
 
 SimpleCov.start

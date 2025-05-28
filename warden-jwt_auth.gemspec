@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'jwt', '~> 2.1'
   spec.add_dependency 'warden', '~> 1.2'
   # for JWKS caching
-  spec.add_dependency 'rails', '>= 6', '< 9'
+  spec.add_dependency 'rails', '~> 7.0.6'
   # for logging
   spec.add_dependency 'rails_semantic_logger', '~> 4.12'
 
