@@ -1,5 +1,5 @@
 version: 1
-generated_at: 2026-05-25T13:20:53Z
+generated_at: 2026-05-25T15:51:13Z
 internal: []
 trusted:
   - action: actions/checkout
@@ -14,9 +14,9 @@ trusted:
 external:
   - action: ruby/setup-ruby
     refs:
-      - v1
+      - afeafc3d1ab54a631816aba4c914a0081c12ff2f
     occurrences:
-      v1:
+      afeafc3d1ab54a631816aba4c914a0081c12ff2f:
         .github/workflows/ci.yml:
           - jobs.test.steps.[1].uses
         .github/workflows/lint.yml:
